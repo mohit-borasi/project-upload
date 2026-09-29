@@ -10,7 +10,7 @@ jobs:
          uses: actions/checkout@v4
 
        - name: check file exist 
-         uses:  test -f App.jsx
+         run:  test -f App.jsx
 
 
    check_preference:
